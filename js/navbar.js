@@ -7,7 +7,8 @@ function navbar_hamburger_change(x, y) {\
 </script>\
 <nav id="navbar">\
 	<a href="../index.html">Home</a>\
-	<a href="../html/resume.html">Resume</a>\
+	<a href="../html/resume.html">My Resume</a>\
+	<a href="../html/games.html">My Games</a>\
 	<div class="hamburger" onclick="navbar_hamburger_change(this,document.getElementById('navbar'))">\
 		<div class="bar1"></div>\
 		<div class="bar2"></div>\
