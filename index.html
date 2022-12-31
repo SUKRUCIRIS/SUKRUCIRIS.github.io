@@ -4,8 +4,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ŞÜKRÜ ÇİRİŞ</title>
+	<link rel="stylesheet" type="text/css" href="css/general.css">
 </head>
 <body>
-	WELCOME TO MY PERSONAL SITE
+	<script src="js/navbar.js"></script>
+	<nav id="navbar">
+		<a href="/main">Home</a>
+		<a href="/game">Game</a>
+		<div class="hamburger" onclick="navbar_hamburger_change(this,document.getElementById('navbar'))">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</nav>
+	<p>WELCOME TO MY PERSONAL SITE</p>
 </body>
 </html>
