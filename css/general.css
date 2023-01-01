@@ -64,6 +64,24 @@ nav a:hover,nav a:active{
 	display: block;
 } 
 
+footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: auto;
+	background-color: rgb(40, 20, 50);
+}
+
+footer p{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	display: block;
+	float: right;
+	padding: 5px 5px;
+}
+
 @media all and (min-width: 1500px){
 	html{
 		font-size: 2vw;
@@ -76,5 +94,9 @@ nav a:hover,nav a:active{
 		float: left;
 		text-align: left;
 		display: block;
+	}
+	footer p{
+		font-size: 1vw;
+		padding: 0.333vw 0.333vw;
 	}
 }
