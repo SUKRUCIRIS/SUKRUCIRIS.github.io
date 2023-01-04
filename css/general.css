@@ -9,6 +9,7 @@ html{
 body { 
 	margin: 0; 
 	padding: 0; 
+	margin-bottom: 150px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -98,5 +99,8 @@ footer p{
 	footer p{
 		font-size: 1vw;
 		padding: 0.333vw 0.333vw;
+	}
+	body { 
+		margin-bottom: 10vw;
 	}
 }
