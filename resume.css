@@ -78,3 +78,19 @@ a:active {
   margin: 0;
   padding: 0;
 }
+.proj_link {
+  font-family: Verdana, sans-serif;
+  font-weight: 500;
+  font-size: small;
+  width: 5rem;
+  background-color: #434e5e;
+  color: aliceblue;
+  height: 1.2rem;
+  border: none;
+  text-align: center;
+}
+.proj_link:hover,
+.proj_link:active {
+  background-color: #10499e;
+  cursor: pointer;
+}
