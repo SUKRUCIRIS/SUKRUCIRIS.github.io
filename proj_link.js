@@ -1,4 +1,4 @@
-var link_number = 16;
+var link_number = 18;
 var urls = [];
 
 function getWidth() {
@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var idx = "pl" + i.toString();
     var elx = document.getElementById(idx);
     urls[i] = elx.innerHTML;
+    urls[i] = urls[i].replace(/\n/g, '');
   }
 });
 
