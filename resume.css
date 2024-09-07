@@ -1,4 +1,4 @@
-@media (max-width: 1279px) {
+@media (max-width: 633px) {
   .header {
     background-color: #434e5e;
     color: aliceblue;
@@ -13,7 +13,23 @@
     width: auto;
   }
 }
-@media (min-width: 1280px) {
+@media (max-width: 889px) and (min-width: 634px) {
+  .header {
+      background-color: #434e5e;
+      color: aliceblue;
+      width: 100%;
+      height: 30rem;
+    }
+    .header img {
+      float: left;
+      display: block;
+      height: 20rem;
+      width: auto;
+      margin-top: 5rem;
+      margin-left: 1rem;
+    }
+}
+@media (min-width: 890px) {
   .header {
     background-color: #434e5e;
     color: aliceblue;
