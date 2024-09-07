@@ -1,4 +1,4 @@
-@media (max-width: 633px) {
+@media screen and (max-width: 633px) {
   .header {
     background-color: #434e5e;
     color: aliceblue;
@@ -13,7 +13,7 @@
     width: auto;
   }
 }
-@media (max-width: 889px) and (min-width: 634px) {
+@media screen and (max-width: 889px) and (min-width: 634px) {
   .header {
       background-color: #434e5e;
       color: aliceblue;
@@ -29,7 +29,7 @@
       margin-left: 1rem;
     }
 }
-@media (min-width: 890px) {
+@media print, screen and (min-width: 890px) {
   .header {
     background-color: #434e5e;
     color: aliceblue;
