@@ -1,4 +1,4 @@
-var link_number = 4;
+var link_number = 5;
 var urls = [];
 
 function getWidth() {
